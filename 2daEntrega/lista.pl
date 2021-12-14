@@ -19,6 +19,7 @@ if(defined($usuario)){
 }else{
   showLogin();
 }
+#comprobacion
 sub checkLogin{
   my $userQuery = $_[0];
 
