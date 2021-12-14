@@ -48,6 +48,7 @@ sub successLogin{
   $sth->finish;
   $dbh->disconnect;
 }
+#muestra los articulos
 sub mostrar{
   my $quiero = $_[0];
   my $deTabla = $_[1];
